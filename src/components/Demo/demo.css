@@ -1,0 +1,100 @@
+/* eslint-disable */
+.demo-container {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  padding-top: 5px;
+  flex-direction: row;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+.demo-container1 {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  max-width: 327px;
+  box-sizing: border-box;
+  flex-basis: 0;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.demo-header {
+  width: 100%;
+  border: 1px dashed rgb(187, 187, 187);
+  height: 97px;
+  font-size: larger;
+  max-width: 327px;
+  min-width: 20px;
+  margin-top: 15px;
+  align-items: center;
+  font-family: Verdana;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  justify-content: center;
+  background-color: #FFFFFF00;
+  -webkit-user-drag: none;
+}
+.demo-paragraph {
+  width: 100%;
+  border: 1px dashed rgb(187, 187, 187);
+  height: 113px;
+  overflow: hidden;
+  font-size: 0.8em;
+  max-width: 313px;
+  min-width: 20px;
+  font-style: normal;
+  margin-top: 15px;
+  align-items: left;
+  font-family: Verdana;
+  font-weight: normal;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 3px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #FFFFFF00;
+  -webkit-user-drag: none;
+}
+.demo-button {
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  border: 1px solid #666666;
+  height: 54px;
+  font-size: 1.1em;
+  max-width: 304px;
+  min-width: 20px;
+  margin-top: 15px;
+  min-height: 2px;
+  align-items: center;
+  font-family: Verdana;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  justify-content: center;
+  background-color: rgba(255, 180, 0, 1);
+  -webkit-user-drag: none;
+}
+.demo-video {
+  width: 100%;
+  border: 1px solid #666666;
+  height: 443px;
+  overflow: hidden;
+  max-width: 433px;
+  min-width: 20px;
+  max-height: 100%;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: #d9d9d9;
+  -webkit-user-drag: none;
+}
