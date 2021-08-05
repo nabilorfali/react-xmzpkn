@@ -12,7 +12,7 @@
   width: 100%;
   display: flex;
   flex-grow: 1;
-  max-width: 744px;
+  max-width: 760px;
   box-sizing: border-box;
   flex-basis: 0;
   align-items: center;
@@ -32,9 +32,10 @@
   padding-left: 5px;
   padding-right: 5px;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .fsdf-header {
+  color: rgba(238, 59, 0, 1);
   width: 100%;
   border: 1px dashed rgb(187, 187, 187);
   height: 65px;
@@ -85,7 +86,7 @@
   width: 100%;
   display: flex;
   flex-grow: 1;
-  max-width: 744px;
+  max-width: 760px;
   box-sizing: border-box;
   flex-basis: 0;
   align-items: center;
@@ -95,6 +96,7 @@
   justify-content: space-between;
 }
 .fsdf-paragraph {
+  color: rgba(0, 175, 71, 1);
   width: 100%;
   border: 1px dashed rgb(187, 187, 187);
   height: 42px;
@@ -113,6 +115,7 @@
   -webkit-user-drag: none;
 }
 .fsdf-paragraph1 {
+  color: rgba(0, 175, 71, 1);
   width: 100%;
   border: 1px dashed rgb(187, 187, 187);
   height: 41px;
@@ -134,7 +137,7 @@
   width: 100%;
   display: flex;
   flex-grow: 1;
-  max-width: 744px;
+  max-width: 760px;
   box-sizing: border-box;
   flex-basis: 0;
   align-items: center;
@@ -144,10 +147,11 @@
   justify-content: space-between;
 }
 .fsdf-button {
+  color: rgba(255, 255, 255, 1);
   width: 100%;
   border: 1px solid #666666;
   height: 76px;
-  font-size: 0.8em;
+  font-size: 1em;
   max-width: 281px;
   min-width: 20px;
   margin-top: 15px;
@@ -157,14 +161,15 @@
   border-radius: 3px;
   margin-bottom: 15px;
   justify-content: center;
-  background-color: #d9d9d9;
+  background-color: rgba(227, 73, 53, 1);
   -webkit-user-drag: none;
 }
 .fsdf-button1 {
+  color: rgba(255, 255, 255, 1);
   width: 100%;
   border: 1px solid #666666;
-  height: 119px;
-  font-size: 0.8em;
+  height: 103px;
+  font-size: 1em;
   max-width: 350px;
   min-width: 20px;
   margin-top: 15px;
@@ -174,6 +179,6 @@
   border-radius: 3px;
   margin-bottom: 15px;
   justify-content: center;
-  background-color: #d9d9d9;
+  background-color: rgba(227, 73, 53, 1);
   -webkit-user-drag: none;
 }
