@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from 'react'
-import { Header, Image, Paragraph, Button } from '../../lib/bundle_sitecore.js'
+import { Header, Image, Paragraph, Button, Toggle, Dropdown } from '../../lib/bundle_sitecore.js'
 import PropTypes from 'prop-types'
 
 import './comp2v.css'
@@ -25,6 +25,10 @@ const Comp2v = (props) => {
           <Paragraph field={props.fields.paragraph_8} className="comp2v-paragraph2"></Paragraph>
           <Button field={props.fields.button_0} className="comp2v-button2"></Button>
         </div>
+      </div>
+      <div className="comp2v-container5">
+        <Toggle className="comp2v-toggle"></Toggle>
+        <Dropdown className="comp2v-dropdown"></Dropdown>
       </div>
     </div>
   )
